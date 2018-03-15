@@ -1,0 +1,12 @@
+xhzhao@xhzhao-ub:~/tools/PyTorch-MPI-DDP-example/from_mingfei$ python mnist_dist.py
+[0/1] Epoch 0 Loss 1.316212 Global batch size 128 on 1 ranks
+[0/1] Epoch 1 Loss 0.546703 Global batch size 128 on 1 ranks
+[0/1] Epoch 2 Loss 0.425036 Global batch size 128 on 1 ranks
+[0/1] Epoch 3 Loss 0.359292 Global batch size 128 on 1 ranks
+[0/1] Epoch 4 Loss 0.315650 Global batch size 128 on 1 ranks
+[0/1] Epoch 5 Loss 0.290439 Global batch size 128 on 1 ranks
+[0/1] Epoch 6 Loss 0.263221 Global batch size 128 on 1 ranks
+[0/1] Epoch 7 Loss 0.251407 Global batch size 128 on 1 ranks
+[0/1] Epoch 8 Loss 0.238773 Global batch size 128 on 1 ranks
+[0/1] Epoch 9 Loss 0.225228 Global batch size 128 on 1 ranks
+
