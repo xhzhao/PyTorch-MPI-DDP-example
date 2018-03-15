@@ -1,26 +1,25 @@
 xhzhao@xhzhao-ub:~/tools/PyTorch-MPI-DDP-example$ ./run.sh 
-[0/2] first broadcast start
 [1/2] first broadcast start
+[0/2] first broadcast start
 [0/2] first broadcast done
 [1/2] first broadcast done
-[0/2] Epoch 0 Loss 0.478335 Global batch size 128 on 2 ranks
-[1/2] Epoch 0 Loss 0.480860 Global batch size 128 on 2 ranks
-[0/2] Epoch 1 Loss 0.202921 Global batch size 128 on 2 ranks
-[1/2] Epoch 1 Loss 0.198808 Global batch size 128 on 2 ranks
-[0/2] Epoch 2 Loss 0.158877 Global batch size 128 on 2 ranks
-[1/2] Epoch 2 Loss 0.159148 Global batch size 128 on 2 ranks
-[0/2] Epoch 3 Loss 0.136106 Global batch size 128 on 2 ranks
-[1/2] Epoch 3 Loss 0.135704 Global batch size 128 on 2 ranks
-[0/2] Epoch 4 Loss 0.121247 Global batch size 128 on 2 ranks
-[1/2] Epoch 4 Loss 0.121271 Global batch size 128 on 2 ranks
-[0/2] Epoch 5 Loss 0.109901 Global batch size 128 on 2 ranks
-[1/2] Epoch 5 Loss 0.108308 Global batch size 128 on 2 ranks
-[0/2] Epoch 6 Loss 0.103449 Global batch size 128 on 2 ranks
-[1/2] Epoch 6 Loss 0.100736 Global batch size 128 on 2 ranks
-[0/2] Epoch 7 Loss 0.097224 Global batch size 128 on 2 ranks
-[1/2] Epoch 7 Loss 0.098750 Global batch size 128 on 2 ranks
-[0/2] Epoch 8 Loss 0.092713 Global batch size 128 on 2 ranks
-[1/2] Epoch 8 Loss 0.090551 Global batch size 128 on 2 ranks
-[0/2] Epoch 9 Loss 0.088647 Global batch size 128 on 2 ranks
-[1/2] Epoch 9 Loss 0.085741 Global batch size 128 on 2 ranks
-
+[0/2] Epoch 0 Loss 0.956670 Global batch size 128 on 2 ranks
+[1/2] Epoch 0 Loss 0.961719 Global batch size 128 on 2 ranks
+[0/2] Epoch 1 Loss 0.405841 Global batch size 128 on 2 ranks
+[1/2] Epoch 1 Loss 0.397616 Global batch size 128 on 2 ranks
+[1/2] Epoch 2 Loss 0.318296 Global batch size 128 on 2 ranks
+[0/2] Epoch 2 Loss 0.317754 Global batch size 128 on 2 ranks
+[0/2] Epoch 3 Loss 0.272213 Global batch size 128 on 2 ranks
+[1/2] Epoch 3 Loss 0.271408 Global batch size 128 on 2 ranks
+[0/2] Epoch 4 Loss 0.242495 Global batch size 128 on 2 ranks
+[1/2] Epoch 4 Loss 0.242542 Global batch size 128 on 2 ranks
+[0/2] Epoch 5 Loss 0.219803 Global batch size 128 on 2 ranks
+[1/2] Epoch 5 Loss 0.216617 Global batch size 128 on 2 ranks
+[0/2] Epoch 6 Loss 0.206899 Global batch size 128 on 2 ranks
+[1/2] Epoch 6 Loss 0.201472 Global batch size 128 on 2 ranks
+[1/2] Epoch 7 Loss 0.197499 Global batch size 128 on 2 ranks
+[0/2] Epoch 7 Loss 0.194447 Global batch size 128 on 2 ranks
+[0/2] Epoch 8 Loss 0.185426 Global batch size 128 on 2 ranks
+[1/2] Epoch 8 Loss 0.181102 Global batch size 128 on 2 ranks
+[0/2] Epoch 9 Loss 0.177293 Global batch size 128 on 2 ranks
+[1/2] Epoch 9 Loss 0.171482 Global batch size 128 on 2 ranks
