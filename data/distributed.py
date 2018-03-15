@@ -4,10 +4,12 @@ import torch.distributed as dist
 from torch.nn.modules import Module
 
 '''
-This version of DistributedDataParallel is designed to be used in conjunction with the multiproc.py
-launcher included with this example. It assumes that your run is using multiprocess with 1
-GPU/process, that the model is on the correct device, and that torch.set_device has been
-used to set the device.
+This version of DistributedDataParallel is designed to be used in conjunction with the DistributedSampler
+You will be able to enable the distributed MPI-backend PyTorch Training with only 2 lines:
+    1. add DistributedSampler in your DataLoader
+    2. pass your model to DistributedDataParallel
+This usage is exactly the same as the torch.nn.parallel.DistributedDataParallel()
+See imagenet example here: https://github.com/pytorch/examples/blob/master/imagenet/main.py#L88
 
 Parameters are broadcasted to the other processes on initialization of DistributedDataParallel,
 and will be allreduced at the finish of the backward pass.
