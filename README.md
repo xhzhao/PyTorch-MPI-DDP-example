@@ -23,5 +23,5 @@ Our experient result:
 ![result](https://github.com/xhzhao/PyTorch-MPI-DDP-example/blob/master/data/image.png)
 
 ### More examples for [PyTorch example](https://github.com/pytorch/examples/)
-* [mnist](https://github.com/xhzhao/examples/tree/master/mnist): https://github.com/xhzhao/examples/tree/master/mnist
-* [imagenet](https://github.com/xhzhao/examples/tree/master/imagenet): https://github.com/xhzhao/examples/tree/master/imagenet
+* mnist: https://github.com/xhzhao/examples/tree/master/mnist
+* imagenet: https://github.com/xhzhao/examples/tree/master/imagenet
