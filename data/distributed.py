@@ -38,7 +38,7 @@ class DistributedDataParallel(Module):
                     grads = [param.grad.data for param in bucket]
                     coalesced = _flatten_dense_tensors(grads)
                     dist.all_reduce(coalesced)
-                    #coalesced /= dist.get_world_size()
+                    coalesced /= dist.get_world_size()
                     for buf, synced in zip(grads, _unflatten_dense_tensors(coalesced, grads)):
                         buf.copy_(synced)
 
